@@ -1,0 +1,75 @@
+body{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    font: normal normal normal 12px/1.5 Verdana, Arial, Helvetica, sans-serif;
+}
+
+.structural{
+    margin: 10px;
+    padding: 10px;
+}
+
+h1{
+    color: #0f1f85;
+    font-size: 30px;
+}
+
+h2{
+    color: #730886;
+    font-size: 22px;
+}
+
+main{
+    height: 70vh;
+}
+
+img{
+    border: 3px solid #ff0000;
+    width: 90%;
+    height: 80%;
+}
+
+figure{
+    background-color: rgb(0, 0, 0);
+    width: 45%;
+    height: 60%;
+    margin: auto;
+    padding: 10px;
+}
+
+#fig1{
+    float: left;
+}
+
+#fig2{
+    float: right;
+}
+
+section{
+    clear: both;
+}
+
+figcaption{
+    font-weight: 300;
+    font-size: 16px;
+    color: aquamarine;
+    padding: 5px;
+}
+
+a{
+    color: #1ac723;
+}
+
+a:hover{
+    color: #196a70;
+}
+
+ul li{
+    list-style-type: square;
+    line-height: 4;
+}
+
+header, footer{
+    background-color: #bdda1c;
+}
